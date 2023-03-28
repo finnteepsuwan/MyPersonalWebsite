@@ -5,160 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Technologies - Finn Teepsuwan</title>
-    <style>
-        nav {
-            background-color: lightcoral;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    <title>Homepage</title>
+    <link rel="stylesheet" href="Stylesheets\index.css">
 
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            overflow: hidden;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a,
-        .dropbutton {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            text-decoration: none;
-        }
-
-        li a:hover,
-        .dropdown:hover .dropbutton {
-            background-color: black;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: black;
-        }
-
-        .dropdown-content a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            text-decoration: none;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        h2 {
-            font-family: 'tangerine', serif;
-            font-size: 45px;
-            color: darkslateblue;
-            text-align: left;
-        }
-
-        h3 {
-            font-family: cursive;
-            color: chocolate;
-            text-align: center;
-        }
-
-        p {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 1.2em;
-            text-indent: 30px;
-            color: darkgreen;
-        }
-
-        img {
-            float: left;
-            margin: 20px 20px 20px 20px;
-            height: 250px;
-        }
-
-        body {
-            background-color: aliceblue;
-            margin-left: 120px;
-            margin-right: 120px;
-        }
-    </style>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#About Me">About Me</a></li>
-            <li><a href="#My Interests">My Interests</a></li>
-            <li><a href="#Contact Information">Contact Information</a></li>
-            <li class="dropdown">
-                <a href="sitemap.html" class="dropbutton">Homework 2</a>
-                <div class="dropdown-content">
-                    <a href="hw2-1.html">hw2-1</a>
-                    <a href="hw2-2.html">hw2-2</a>
-                    <a href="hw2-3.html">hw2-3</a>
-                    <a href="hw2-4.html">hw2-4</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
-    <div>
-        <h2 id="About Me">About Me</h2>
-        <p>
-            <img src="images/daboys.jpg" alt="Me" title="Me" height="200" /> <br>
-            My name is Finn Teepsuwan, I just turned 21 and I am currently a Junior here at Babson College. I
-            was born and raised in Thailand until 11 years old when I moved to boarding school in the
-            United Kingdom. I spent two years at a coed middle school before moving to an all boys school for five
-            years. It was an awesome experience that has shaped me into the person I am today.I have two siblings,
-            an older sister who is currently in San Francisco as a senior in college, and a younger brother who is
-            studying in the UK for high school. My parents both live in Bangkok and they are working in business and
-            education.<br><br>
-            My dad was born and raised in Boston so I've been hearing all about the states growing up. We
-            support the Celtics and Red Sox as well as Liverpool (owned by FSG). I chose <a
-                style="text-decoration: none;" href="https://www.babson.edu/"><b>Babson College</b></a> because of
-            how entrepreneurship is engrained within the school, its culture, and its classes. Moreover Bason
-            contains the resources that I need to utlize in order to pursue my goals of becoming a business owner as
-            well as to continue supporting my family business that is running a school and improving education in
-            Thailand. After graduating, I hope to pursue my interest in consulting by gaining corporate experience in
-            the United States for a few years before returning to Thailand and hopefully starting my own business there.
-            <br>
-    </div>
-    </p>
-    <h2 id="My Interests">My Interests</h2>
-    <p>
-        <img src="images/liverpool-fc.jpg" alt="Liverpool FC" title="Liverpool FC" /> <br>
-        In my free time, I get up to a lot of sports, football, basketball, volleyball, running, just to name a
-        few. My favorite sport right now would be football (or as they say here, soccer...). Ever since I was a kid I
-        have been playing football and indulging in the culture and practices of English football. My preferred position
-        is left wing because I am left footed. I am a die hard Liverpool fan since the team has been such a big part
-        of our household brought about by my dad and his obsession with FSG. My favorite player of all time would be
-        Steven Gerrard and my current favorite player is Darwin Nunez despite all the backlash he's received. I really
-        enjoy watching the <a style="text-decoration: none;" href="https://www.premierleague.com/"><b>Premier
-                League</b></a> (and occasionally friendly betting) since there is so much to talk about and analyze
-        with my friends
-    </p> <br>
-    <hr />
-    <h3 id="Contact Information">Contact Information</h3>
-    <p> <br>
-        Finn Teepsuwan - Web Technologies <br>
-        <a style="text-decoration: none;" href="https://github.com/finnteepsuwan/WebTech" target="blank">Github
-            Profile</a><br>
-        Email: <a style="text-decoration: none;" href="mailto:nteepsuwan1@babson.edu">nteepsuwan1@babson.edu</a><br>
-        Click <a style="text-decoration: none;" href="sitemap.html">Sitemap.html</a> to view my work in Web
-        Technologies
-        <br>
-        <iframe width="370" height="270" src="https://www.youtube.com/embed/onr2vHRQwQ0"
-            title="Your Moment Begins at Babson" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <!--This is an embedded video of Babson's trailer which I learned from w3schools.-->
-</body>
-
-</html>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="about-us.html">About us</a></li>
+                <li class="dropdown">
+                    <a href="shop.html" class="dropbutton">Shop</a>
+                    <div class="dropdown-content">
+                        <a href="tees.html">Tees</a>
+                        <a href="sweats.html">Sweats</a>
+                        <a href="pants.html">Pants</a>
+                        <a href="accessories.html">Accessories</a>
+                    </div>
+                </li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="camera-roll.html">Camera Roll</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="title">
+        <div class="image-container">
+            <img src="Images\header.jpg" alt="header">
+            <div class="title-text">
+                <h2><b>HaveAGoodTrip</b></h2>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="description">
+        <p>Welcome to HaveAGoodTrip! We (Max, Finn, and Tata) want to personally invite you to join our mission to
+            promote the culture of fashion</p>
+    </section>
+    <footer>
+        <form id="contact-us">
+            <label for="email">Join our mailing list to receive updates on our latest posts and other cool
+                stuff.</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+            <input type="submit" value="Subscribe">
+        </form>
+    </footer>
